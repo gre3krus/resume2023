@@ -1,0 +1,144 @@
+main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header__about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 12px;
+
+  width: 890px;
+  height: 266px;
+
+  background: #4e4c4c;
+}
+
+/* @media (max-width: 865px) {
+  .header__about {
+  }
+} */
+
+ul {
+  font-family: "Ysabeau";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.flance {
+  width: 145px;
+  height: 145px;
+  border-radius: 72.5px;
+
+  margin: 10px 0px 15px 0px;
+
+  transition: all 0.8s ease;
+}
+
+.flance:hover {
+  transform: scale(1.1);
+}
+
+a {
+  border-radius: 72.5px;
+  z-index: 999;
+}
+
+p {
+  font-family: "Ysabeau";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.main__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 82px 0px 0px 0px;
+  padding: 0px 20px;
+}
+
+.left__container {
+  width: 374px;
+  height: 292px;
+
+  background: #4e4c4c;
+  border-radius: 30px;
+}
+
+.right__container {
+  width: 374px;
+  height: 292px;
+
+  background: #4e4c4c;
+  border-radius: 30px;
+}
+
+.left__container img {
+  width: 130px;
+  height: 130px;
+}
+
+.right__container img {
+  width: 120px;
+  height: 120px;
+}
+
+.htmlpng {
+  display: flex;
+  align-items: start;
+  padding: 5px 0px 0px 15px;
+}
+
+.csspng {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 5px 15px 0px 0px;
+  top: -135px;
+  position: relative;
+}
+
+.jspng {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -150px;
+  padding-bottom: 10px;
+}
+
+.tgpng {
+  display: flex;
+  align-items: start;
+  padding: 5px 0px 0px 15px;
+}
+
+.vkpng {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 5px 15px 0px 0px;
+  top: -125px;
+  position: relative;
+}
+
+.githubpng {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -130px;
+  padding-bottom: 10px;
+}
