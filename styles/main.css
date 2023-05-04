@@ -3,6 +3,7 @@ main {
   justify-content: center;
   align-items: center;
   position: relative;
+  gap: 109px;
 }
 .header__about {
   display: flex;
@@ -10,16 +11,11 @@ main {
   align-items: center;
   padding: 15px 12px;
 
-  width: 890px;
-  height: 266px;
+  /* width: 890px;
+  height: 266px; */
 
   background: #4e4c4c;
 }
-
-/* @media (max-width: 865px) {
-  .header__about {
-  }
-} */
 
 ul {
   font-family: "Ysabeau";
@@ -57,7 +53,6 @@ p {
   font-weight: 400;
   font-size: 32px;
   line-height: 43px;
-  /* identical to box height */
 
   text-align: center;
 
@@ -69,6 +64,7 @@ p {
   justify-content: space-between;
   margin: 82px 0px 0px 0px;
   padding: 0px 20px;
+  gap: 109px;
 }
 
 .left__container {
