@@ -21,7 +21,8 @@ body.show {
 
 container {
   display: block;
-  margin: 33px 30vw 0px 30vw;
+  /* margin: 33px 20vw 0px 20vw; */
+  margin: 33px 302px 0px 302px;
 }
 
 @keyframes fadeIn {
