@@ -1,5 +1,5 @@
 /* Container */
-@media (max-width: 865px) {
+@media (max-width: 866px) {
   container {
     display: block;
     margin: 40px 52px 0px 52px;
@@ -8,13 +8,14 @@
 
 /* Header */
 
-@media (max-width: 865px) {
+@media (max-width: 866px) {
   header {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    margin: 0px 0px 36px 0px;
+    gap: 83px;
 
     position: relative;
   }
@@ -33,5 +34,121 @@
     height: 370px;
     border-radius: 245px;
     object-fit: cover;
+  }
+
+  .flance {
+    display: none;
+  }
+
+  .flance__mobile {
+    width: 145px;
+    height: 145px;
+    border-radius: 72.5px;
+  }
+
+  .header__flance {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 52px;
+
+    width: 249px;
+    height: 249px;
+
+    background: #4e4c4c;
+    border-radius: 72px;
+  }
+}
+
+/* Main */
+
+@media (min-width: 866px) {
+  .flance__mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 866px) {
+  .header__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+    gap: 10px;
+
+    position: relative;
+
+    background: #4e4c4c;
+  }
+
+  ul {
+    font-family: "Ysabeau";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    padding: 0px 26px 0px 26px;
+
+    color: #ffffff;
+  }
+
+  .main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 89px;
+    margin: 58px 10vw 0px 10vw;
+  }
+}
+
+/* Footer */
+
+@media (max-width: 866px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 97px;
+    gap: 32px;
+
+    position: relative;
+
+    background: #4e4c4c;
+  }
+
+  .about p {
+    width: 120px;
+    height: 30px;
+
+    font-family: "Ysabeau";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .about ul {
+    width: 670px;
+
+    font-family: "Ysabeau";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
   }
 }
