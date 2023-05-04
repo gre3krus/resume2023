@@ -21,10 +21,11 @@
   }
 
   .header__photo {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; */
+    display: block;
     padding: 10px;
     gap: 10px;
   }
@@ -44,6 +45,7 @@
     width: 145px;
     height: 145px;
     border-radius: 72.5px;
+    object-fit: cover;
   }
 
   .header__flance {
@@ -53,8 +55,8 @@
     align-items: center;
     padding: 52px;
 
-    width: 249px;
-    height: 249px;
+    /* width: 249px;
+    height: 249px; */
 
     background: #4e4c4c;
     border-radius: 72px;
@@ -123,8 +125,8 @@
   }
 
   .about p {
-    width: 120px;
-    height: 30px;
+    /* width: 120px;
+    height: 30px; */
 
     font-family: "Ysabeau";
     font-style: normal;
@@ -137,7 +139,7 @@
   }
 
   .about ul {
-    width: 670px;
+    /* width: 670px; */
 
     font-family: "Ysabeau";
     font-style: normal;
@@ -145,6 +147,8 @@
     font-size: 24px;
     line-height: 32px;
     text-align: center;
+
+    word-wrap: break-word;
 
     color: #ffffff;
 
