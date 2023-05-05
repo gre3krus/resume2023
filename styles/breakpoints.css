@@ -160,7 +160,7 @@
     align-items: center;
     padding: 0px;
     gap: 89px;
-    margin: 58px 10vw 0px 10vw;
+    margin-top: 58px;
   }
 }
 
@@ -172,7 +172,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 97px;
+    padding: 0px 45px;
     gap: 32px;
 
     position: relative;
