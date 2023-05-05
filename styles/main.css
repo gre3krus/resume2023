@@ -3,8 +3,8 @@ main {
   justify-content: center;
   align-items: center;
   position: relative;
-  gap: 109px;
 }
+
 .header__about {
   display: flex;
   flex-direction: column;
